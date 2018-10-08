@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://chesterton14.cn/2018/10/05/MyFirstPost/</loc>
+        <lastmod>2018-10-08T04:35:35.999Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://chesterton14.cn/2017/03/18/hexo-theme-beantech/</loc>
         <lastmod>2018-10-07T09:05:50.712Z</lastmod>
         <changefreq>weekly</changefreq>
