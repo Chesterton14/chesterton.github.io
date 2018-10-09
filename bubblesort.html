@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>冒泡排序</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"  />
+
+	<body>
+		<div class="container-fluid" style="margin: 0 auto;width: 100%;height: 100px;">
+			<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+					<h1>冒泡排序</h1>
+					<p>输入数字以“,”分割，如“9,8,7,6,5”(英文“,”)</p>
+					<input id="in" />
+					<button onclick="getinput()">提交</button>
+					<p id="p1"></p>
+					<p id="p2"></p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function getinput() {
+				var userin = document.getElementById("in").value;
+				var str = '[' + userin + ']';
+				var str1 = JSON.parse(str);
+
+				var arr = str1;
+				var len = arr.length;
+				for(var i = 0; i < len - 1; i++) {
+					for(var j = len - 2; j >= i; j--) {
+						if(arr[j] > arr[j + 1]) {
+							var temp = arr[j];
+							arr[j] = arr[j + 1];
+							arr[j + 1] = temp;
+						}
+					}
+					var times = i + 1;
+					var result = "进行了" + times + "次比较,结果是：";
+					document.getElementById("p1").innerHTML = result;
+					document.getElementById("p2").innerHTML = arr;
+				}
+			}
+		</script>
+	</body>
+
+</html>

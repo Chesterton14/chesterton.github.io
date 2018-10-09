@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://chesterton14.cn/tags/Hexo/</loc>
-        <lastmod>2018-10-07T09:05:50.712Z</lastmod>
+        <loc>http://chesterton14.cn/tags/JavaScript/</loc>
+        <lastmod>2018-10-09T06:53:44.294Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://chesterton14.cn/tags/Blog/</loc>
-        <lastmod>2018-10-08T04:35:35.999Z</lastmod>
+        <lastmod>2018-10-09T06:54:24.550Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

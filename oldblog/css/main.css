@@ -1,0 +1,335 @@
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+ul {
+	margin: 0;
+}
+
+nav {
+	background: rgba(0, 0, 0, 0.7);
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 50px;
+	float: right;
+	margin-right: 20px;
+	letter-spacing: 2px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	line-height: 50px;
+	display: inline-block;
+	height: inherit;
+	color: white;
+}
+
+nav ul li.logo {
+	float: left;
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: white;
+}
+
+#banner {
+	background: transparent;
+	height: 650px;
+	margin: 0;
+}
+
+#banner .inner {
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+	color: white;
+}
+
+#banner .inner h1 {
+	margin: 0 0;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: white;
+}
+
+#banner button {
+	border: none;
+	background-color: red;
+	color: white;
+	padding: 15px 25px;
+	outline: none;
+}
+
+#banner .inner .more {
+	padding-top: 130px;
+}
+
+#banner .inner .txt {
+	line-height: 30px;
+	margin: 20px;
+	color: white;
+}
+
+h2 {
+	margin: 0;
+	font-size: 30px;
+}
+
+.section1 {
+	text-align: center;
+	background-color: #3f4d54;
+	padding: 50px 0;
+}
+
+.wrapper {
+	max-width: 1080PX;
+	margin: 0 auto;
+}
+
+.wrapper h2,
+p {
+	color: white;
+}
+
+.section1 .wrapper .icon-group .icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	/*	border: 1px solid #252f34;*/
+	margin: 20px;
+}
+
+.section1 .wrapper .icon-group .icon i {
+	transform: none;
+	margin: 30px 30px;
+	color: white;
+}
+
+.icon-group {
+	margin: 20px;
+}
+
+.section2 {
+	background-color: #252f34;
+	color: #FFFFFF;
+}
+
+.section2 .img {
+	width: 50%;
+}
+
+.img img {
+	width: 100%;
+}
+
+.section2 .text {
+	width: 50%;
+}
+
+.article-preview>div {
+	float: left;
+}
+
+.article-preview:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.text {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.text>* {
+	max-width: 90%;
+}
+
+.text h2 {
+	margin-bottom: 50px;
+}
+
+.text p {
+	letter-spacing: 5px;
+}
+
+.section2 p {
+	font-size: medium;
+}
+
+.section3 {
+	background-color: #213b4a;
+	color: white;
+	padding: 80px;
+}
+
+.section3 .section3-header {
+	text-align: center;
+}
+
+.section3 .section3-header .section3-header-text {
+	padding: 50px;
+}
+
+.section3 .card-group .card {
+	float: left;
+	width: 50%;
+	min-height: 300px;
+}
+
+.section3 .card-group .card h3 {
+	text-align: center;
+}
+
+.section3 .card-group {
+	padding: 50px;
+}
+
+.section3 .card-group .card p {
+	margin: 0 50px;
+	letter-spacing: 2px;
+}
+
+.card:first-child {
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.card:nth-child(2) {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(3) {
+	background: rgba(0, 0, 0, 0.14);
+}
+
+.card:nth-child(4) {
+	background: rgba(0, 0, 0, 0.18);
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	text-align: center;
+	min-height: 200px;
+}
+
+.item-group {
+	display: block;
+	list-style: none;
+	width: 900px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.item-group span {
+	display: inline-block;
+	padding: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+.main {
+	background-image: url(../img/background1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#sidebar
+{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: -300px;
+	width: 300px;
+	background-color: #242c31;
+	text-align: center;
+	transition: right 0.6s;
+}
+#sidebar ul
+{
+	margin-top: 50px;
+	padding-left: 0;
+}
+#sidebar ul li
+{
+	padding: 30px;
+	list-style: none;
+}
+#sidebar ul a
+{
+	color: white;
+	text-decoration: none;
+}
+#sidebar ul li:hover
+{
+	background-color: black ;
+}
+#mark
+{
+	display: none;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#back-to-top
+{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+#articlebanner
+{
+	height: 300px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	color: white;
+}
+
+.article-wrapper
+{
+	margin: 0 atuo;
+	padding: 100px;
+	background-color: #252F34;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+img.MyPic
+{
+	position: absolute;
+	height: 200px;
+	display: none;
+}
